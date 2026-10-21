@@ -2,116 +2,121 @@
     <string name="app_name">Beauty Aisle Basket</string>
 
     <!-- shared -->
-    <string name="price">£%1$.2f</string>
-    <string name="price_total">Total: £%1$.2f</string>
-    <string name="back_icon_description">Back</string>
-    <string name="clear_cart_icon_description">Clear cart</string>
+    <string name="price">£%1$.2f GBP</string>
+    <string name="price_total">Basket: £%1$.2f</string>
+    <string name="back_icon_description">Go back</string>
+    <string name="clear_cart_icon_description">Empty basket</string>
 
     <!-- top bar titles -->
-    <string name="nicht_top_bar_home_title">Home</string>
-    <string name="nicht_top_bar_cart_title">Cart</string>
-    <string name="nicht_top_bar_checkout_title">Checkout</string>
-    <string name="nicht_top_bar_orders_title">Orders</string>
-    <string name="nicht_top_bar_settings_title">Settings</string>
-    <string name="nicht_top_bar_product_details_title">Details</string>
-    <string name="nicht_top_bar_tagline">The best choice</string>
+    <string name="nicht_top_bar_home_title">Beauty Shop</string>
+    <string name="nicht_top_bar_cart_title">Basket</string>
+    <string name="nicht_top_bar_checkout_title">Delivery</string>
+    <string name="nicht_top_bar_orders_title">Purchases</string>
+    <string name="nicht_top_bar_settings_title">Account</string>
+    <string name="nicht_top_bar_product_details_title">Item Details</string>
+    <string name="nicht_top_bar_tagline">Beauty made simple</string>
 
     <!-- bottom bar navigation item titles -->
-    <string name="nicht_bottom_bar_nav_item_home_title">Home</string>
-    <string name="nicht_bottom_bar_nav_item_cart_title">Cart</string>
-    <string name="nicht_bottom_bar_nav_item_orders_title">Orders</string>
-    <string name="nicht_bottom_bar_nav_item_settings_title">Settings</string>
+    <string name="nicht_bottom_bar_nav_item_home_title">Browse</string>
+    <string name="nicht_bottom_bar_nav_item_cart_title">Bag</string>
+    <string name="nicht_bottom_bar_nav_item_orders_title">History</string>
+    <string name="nicht_bottom_bar_nav_item_settings_title">More</string>
 
     <!-- splash screen -->
-    <string name="nicht_app_logo_description">App logo</string>
-    <string name="splash_screen_tagline">Everything you need in one place</string>
+    <string name="nicht_app_logo_description">Beauty store logo</string>
+    <string name="splash_screen_tagline">Everyday beauty in one basket</string>
 
     <!-- onboarding screen -->
-    <string name="page_discover_title">Discover What You Need</string>
-    <string name="page_discover_description">Browse thousands of products across every category and find exactly what you\'re looking for.</string>
+    <string name="page_discover_title">Find Your Daily Favourites</string>
+    <string name="page_discover_description">Browse skincare, makeup, hair care and more to find the right essentials for your routine.</string>
 
-    <string name="page_checkout_title">Checkout Made Simple</string>
-    <string name="page_checkout_description">Secure payments and a fast, hassle-free checkout every time you shop.</string>
+    <string name="page_checkout_title">Beauty Shopping Made Easy</string>
+    <string name="page_checkout_description">Build your beauty basket and place an order in just a few simple steps.</string>
 
-    <string name="page_delivery_title">Fast, Reliable Delivery</string>
-    <string name="page_delivery_description">Track your order in real time and get updates every step of the way.</string>
+    <string name="page_delivery_title">Carefully Packed Orders</string>
+    <string name="page_delivery_description">Follow your beauty order and receive updates from checkout to delivery.</string>
 
-    <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
-    <string name="skip_button_title">Skip</string>
+    <string name="next_button_title">Continue</string>
+    <string name="start_button_title">Shop Now</string>
+    <string name="skip_button_title">Later</string>
 
     <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
-    <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
+    <string name="onboarding_button_progress">%1$s · %2$d of %3$d</string>
 
     <!-- home screen -->
-    <string name="products_state_empty_primary_text">No products available</string>
-    <string name="home_featured_title">Featured</string>
-    <string name="home_categories_title">Categories</string>
-    <string name="home_products_title">Products</string>
-    <string name="home_products_count">%1$d items</string>
-    <string name="add_to_cart_icon_description">Add to cart</string>
+    <string name="products_state_empty_primary_text">No beauty items found</string>
+    <string name="home_featured_title">Beauty Picks</string>
+    <string name="home_categories_title">Shop By Type</string>
+    <string name="home_products_title">Essentials</string>
+    <string name="home_products_count">%1$d beauty items</string>
+    <string name="add_to_cart_icon_description">Add to basket</string>
 
     <!-- product categories -->
-    <string name="nicht_category_all">All</string>
+    <string name="nicht_category_all">Browse All</string>
+    <string name="product_category_skincare_title">Skincare</string>
+    <string name="product_category_makeup_title">Makeup</string>
+    <string name="product_category_hair_care_title">Hair Care</string>
+    <string name="product_category_bath_body_title">Bath &amp; Body</string>
+    <string name="product_category_fragrance_title">Fragrance</string>
 
     <!-- product details screen -->
-    <string name="product_details_state_empty_primary_text">No information available for this product</string>
-    <string name="product_image_description">Product image</string>
-    <string name="button_add_to_cart_label">Add to Cart</string>
-    <string name="product_details_description_title">Description</string>
-    <string name="product_details_snackbar_added_to_cart">Added to cart</string>
+    <string name="product_details_state_empty_primary_text">No beauty details found for this item</string>
+    <string name="product_image_description">Beauty item photo</string>
+    <string name="button_add_to_cart_label">Add to Basket</string>
+    <string name="product_details_description_title">About This Item</string>
+    <string name="product_details_snackbar_added_to_cart">Added to basket</string>
 
     <!-- cart screen -->
-    <string name="cart_state_empty_primary_text">Nothing in your cart yet</string>
-    <string name="button_place_order_label">Place Order • £%1$.2f</string>
-    <string name="increase_quantity_icon_description">Increase quantity</string>
-    <string name="decrease_quantity_icon_description">Decrease quantity</string>
-    <string name="delete_item_icon_description">Delete item</string>
-    <string name="cart_items_count">Items: %1$d</string>
-    <string name="cart_item_quantity_multiplier">%1$s × %2$d</string>
-    <string name="cart_summary_subtotal_label">Subtotal</string>
-    <string name="cart_summary_delivery_label">Delivery</string>
-    <string name="cart_summary_delivery_free">Free</string>
-    <string name="cart_summary_total_label">Total</string>
+    <string name="cart_state_empty_primary_text">Your beauty basket is empty</string>
+    <string name="button_place_order_label">Order Beauty • £%1$.2f</string>
+    <string name="increase_quantity_icon_description">Add one more</string>
+    <string name="decrease_quantity_icon_description">Remove one</string>
+    <string name="delete_item_icon_description">Remove beauty item</string>
+    <string name="cart_items_count">Beauty items: %1$d</string>
+    <string name="cart_item_quantity_multiplier">%2$d × %1$s</string>
+    <string name="cart_summary_subtotal_label">Item Total</string>
+    <string name="cart_summary_delivery_label">Beauty Delivery</string>
+    <string name="cart_summary_delivery_free">Included</string>
+    <string name="cart_summary_total_label">Order Total</string>
 
     <!-- orders screen -->
-    <string name="orders_state_empty_primary_text">You have no orders yet</string>
-    <string name="order_number">Order #%1$s</string>
-    <string name="order_customer">Customer: %1$s %2$s</string>
-    <string name="order_customer_email">Email: %1$s</string>
-    <string name="order_date_pattern">dd MMM yyyy, HH:mm</string>
-    <string name="order_status_confirmed">Confirmed</string>
-    <string name="order_total_label">Total</string>
+    <string name="orders_state_empty_primary_text">No beauty orders placed yet</string>
+    <string name="order_number">Beauty order %1$s</string>
+    <string name="order_customer">Recipient: %1$s %2$s</string>
+    <string name="order_customer_email">Updates: %1$s</string>
+    <string name="order_date_pattern">MMM d, yyyy · HH:mm</string>
+    <string name="order_status_confirmed">Being Prepared</string>
+    <string name="order_total_label">Order Value</string>
 
     <!-- checkout screen -->
-    <string name="checkout_headline">Almost there</string>
-    <string name="checkout_invitation">Leave your name and email — we\'ll confirm the order and keep you posted on delivery.</string>
-    <string name="checkout_text_field_first_name">First Name</string>
-    <string name="checkout_text_field_last_name">Last Name</string>
-    <string name="checkout_text_field_email">Email</string>
-    <string name="checkout_email_supporting_text">The order confirmation goes to this address</string>
-    <string name="checkout_email_error_text">Enter a valid email, for example name@example.com</string>
-    <string name="button_confirm_order_label">Confirm Order</string>
+    <string name="checkout_headline">Finish your basket</string>
+    <string name="checkout_invitation">Share your name and email so we can confirm your beauty order and delivery updates.</string>
+    <string name="checkout_text_field_first_name">Given Name</string>
+    <string name="checkout_text_field_last_name">Family Name</string>
+    <string name="checkout_text_field_email">Email Address</string>
+    <string name="checkout_email_supporting_text">Beauty order updates arrive at this address</string>
+    <string name="checkout_email_error_text">Use a valid email such as beauty@example.com</string>
+    <string name="button_confirm_order_label">Order Items</string>
 
     <!-- checkout dialog -->
-    <string name="checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="checkout_dialog_confirm">Done</string>
+    <string name="checkout_dialog_title">Your Beauty Order Is In!</string>
+    <string name="checkout_success_message">Your beauty order is confirmed. Our team will send your delivery details shortly.</string>
+    <string name="checkout_dialog_confirm">Great</string>
 
     <!-- settings screen -->
-    <string name="settings_screen_app_label">Application</string>
-    <string name="settings_screen_version_label">Version</string>
+    <string name="settings_screen_app_label">Shop App</string>
+    <string name="settings_screen_version_label">App Build</string>
     <string name="nicht_app_version">1.0.0</string>
 
-    <string name="settings_screen_company_label">Company</string>
+    <string name="settings_screen_company_label">Beauty Retailer</string>
     <string name="nicht_company_name">OH MY WAVES LTD</string>
 
-    <string name="settings_screen_customer_support_label">Customer Support</string>
+    <string name="settings_screen_customer_support_label">Beauty Help Centre</string>
     <string name="nicht_customer_support_link">https://beauty-cosmetics-bar.top</string>
 
     <!-- clear cart dialog -->
-    <string name="clear_cart_dialog_title">Clear cart?</string>
-    <string name="clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="button_confirm_clear_cart">Confirm</string>
-    <string name="button_cancel_clear_cart">Cancel</string>
+    <string name="clear_cart_dialog_title">Empty basket?</string>
+    <string name="clear_card_dialog_text">Remove every beauty item from your basket?</string>
+    <string name="button_confirm_clear_cart">Empty</string>
+    <string name="button_cancel_clear_cart">Keep Items</string>
 </resources>
